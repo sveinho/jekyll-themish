@@ -1,1 +1,24 @@
-testings
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+{% include head.html %}
+<body>
+
+<nav class="global-navigation">
+  <ul>
+    {% for link in site.navigation %}
+      {% assign current = false %}
+      {% if page.url == link.url %}{% assign current = true %}{% endif %}
+      <li>
+        <a href="{{ link.url | relative_url }}" class="{% if current %}active{% endif %}">
+          {{ link.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{{ content }}
+
+</body>
+</html>
+
