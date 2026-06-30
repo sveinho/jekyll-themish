@@ -1,9 +1,9 @@
-title: All about file format identification
+title: All about the Support-kit
 description: Lær alt om identifisering av filformater.
 
 # Navigasjonsmeny (Topic 2, 3, 4 lenker direkte til sider du oppretter)
 navigation:
-  - title: File formats
+  - title: Introduction
     url: /
   - title: Topic 2
     url: /topic2/
