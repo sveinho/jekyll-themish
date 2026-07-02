@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Introduction
-headline: Introduction to the Support-kit
+headline: Mocking up the Support-kit
 permalink: /
 ---
